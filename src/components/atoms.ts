@@ -1,12 +1,5 @@
 import { atom } from 'jotai'
 
-type VictimDetails = {
-  position: string | undefined
-  typeOfIncarceration: string
-  typeOfRemove: string
-  extractionAngle: string
-}
-
 // export const victimDetailsModalAtom = atom({ open: false, position: undefined })
 // export const victimDetailsDataAtom = atom<VictimDetails[]>([])
 
