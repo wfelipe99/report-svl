@@ -37,7 +37,13 @@ function Identification() {
 
           <div>
             <Label htmlFor="dataOcorrencia" value="Data da Ocorrência" />
-            <Datepicker className="mt-2" id="dataOcorrencia" language="pt-BR" />
+            <Datepicker
+              className="mt-2"
+              id="dataOcorrencia"
+              language="pt-BR"
+              showClearButton={false}
+              showTodayButton={false}
+            />
           </div>
 
           <div>
